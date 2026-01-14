@@ -1,0 +1,11 @@
+- id: '1768410931317'
+  alias: Reboot Daily
+  description: ''
+  triggers:
+  - trigger: time
+    at: 05:00:00
+  conditions: []
+  actions:
+  - action: homeassistant.restart
+    data: {}
+  mode: single

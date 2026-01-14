@@ -1,0 +1,11 @@
+book_conference_room_30_min:
+  alias: Book Conference Room for 30 Minutes
+  sequence:
+  - data:
+      entity_id: calendar.conferenceroom_calendar
+      summary: Booked from touch panel
+      description: Auto-booked for 30 minutes
+      start_date_time: '{{ now().isoformat() }}'
+      end_date_time: '{{ (now() + timedelta(minutes=30)).isoformat() }}'
+    action: calendar.create_event
+  mode: single

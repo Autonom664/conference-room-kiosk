@@ -1,0 +1,54 @@
+# Home Assistant
+.storage/
+deps/
+*.log
+*.db
+*.db-shm
+*.db-wal
+secrets.yaml
+home-assistant_v2.db*
+zigbee.db*
+
+# System
+.vscode-server/
+.config/
+.cache/
+.local/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Development
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# AnyDesk (unrelated)
+anydesk-6.4.1/
+AnyDeskClient.tar.gz
+
+# User directories
+Bookshelf/
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/

@@ -1,0 +1,21 @@
+[Unit]
+Description=Conference Room Kiosk
+After=network.target home-assistant.service
+Wants=home-assistant.service
+
+[Service]
+Type=simple
+User=admin
+WorkingDirectory=/home/admin
+ExecStart=/home/admin/start-kiosk.sh
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Environment setup
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/admin/.Xauthority"
+
+[Install]
+WantedBy=multi-user.target

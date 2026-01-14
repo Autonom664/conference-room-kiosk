@@ -1,0 +1,79 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+# Include external files
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# All binary sensors
+binary_sensor:
+  - platform: template
+    sensors:
+
+      # Presence detection with 10s delay off
+      conference_room_occupied:
+        friendly_name: "Conference Room Occupied"
+        delay_off:
+          seconds: 10
+        value_template: >
+          {{ is_state('binary_sensor.presence_sensor_fp2_54f1_presence_sensor_2', 'on') }}
+
+      # Room booking availability based on upcoming events
+      conference_room_booking_available:
+        friendly_name: "Conference Room Booking Available"
+        value_template: >
+          {% set events = state_attr('calendar.conferenceroom_calendar', 'data') %}
+          {% if not events %}
+            true
+          {% else %}
+            {% set now = now().timestamp() %}
+            {% set end_window = now + 1800 %}
+            {% set overlap = events
+              | selectattr('start', 'defined')
+              | selectattr('start', 'ne', None)
+              | map(attribute='start')
+              | map('as_timestamp')
+              | select('lt', end_window)
+              | list %}
+            {{ overlap | length == 0 }}
+          {% endif %}
+
+# Sensor for listing today's meetings
+sensor:
+  - platform: template
+    sensors:
+      todays_conference_events:
+        friendly_name: "Today's Conference Events"
+        value_template: "OK"
+        attribute_templates:
+          list: >
+            {% set data = state_attr('calendar.conferenceroom_calendar', 'data') %}
+            {% if data %}
+              {% set events = [] %}
+              {% for event in data %}
+                {% if event.start and event.end %}
+                  {% set local_start = as_local(event.start) %}
+                  {% set local_end = as_local(event.end) %}
+                  {% if local_start.date() == now().date() %}
+                    {% set start = local_start.strftime('%H:%M') %}
+                    {% set end = local_end.strftime('%H:%M') %}
+                    {% set line = event.summary ~ ': ' ~ start ~ ' - ' ~ end %}
+                    {% set events = events + [line] %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {{ events | join('\n') if events else 'No meetings today.' }}
+            {% else %}
+              No calendar data available.
+            {% endif %}
+sensor:
+  - platform: time_date
+    display_options:
+      - 'time'
+      - 'date'
+      - 'time_date'

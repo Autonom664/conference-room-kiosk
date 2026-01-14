@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Loading...</title>
+  <meta http-equiv="refresh" content="30; URL=http://172.17.60.100:8123/conference-room/kiosk?kiosk" />
+  <style>
+    html, body {
+      background-color: #111;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    img {
+      max-width: 60%;
+      max-height: 200px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    p {
+      font-size: 24px;
+      margin: 10px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+  <img src="company-logo.png" alt="Company Logo" />
+  <h1>Starting Conference Room</h1>
+  <p>Launching dashboard in <span id="countdown">30</span> seconds...</p>
+
+  <script>
+    let timeLeft = 30;
+    const countdown = document.getElementById('countdown');
+    setInterval(() => {
+      timeLeft--;
+      countdown.textContent = timeLeft;
+    }, 1000);
+  </script>
+</body>
+</html>
