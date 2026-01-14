@@ -1,0 +1,699 @@
+   info 2025-04-09 13:00:05.996         ad   main   7298   7298                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - 
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - Command Line params: '--version'
+   info 2025-04-09 13:00:05.997         ad   main   7298   7298                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:06.011         ad   main   7298   7298                   fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:06.012         ad   main   7298   7298                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:06.012         ad   main   7298   7298                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:06.012         ad   main   7298   7298                                  main - Exiting normally.
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - 
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:19.312         ad   main   7348   7348                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:19.327         ad   main   7348   7348                   fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:19.327         ad   main   7348   7348                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:19.327         ad   main   7348   7348                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:19.349         ad   main   7351   7351                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - 
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - Command Line params: '--local-service'
+   info 2025-04-09 13:00:19.350         ad   main   7351   7351                                  main - Found GLib Version: 2.74.
+warning 2025-04-09 13:00:19.374         ad   main   7351   7351                   fiber.ipc_namespace - Local namespace without service.
+   info 2025-04-09 13:00:19.374         ad   main   7351   7351                   fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:19.378         ad   main   7351   7351                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:19.378         ad   main   7351   7351                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:19.389         ad   main   7351   7351             app.named_process_starter - Spawning new process with: UID: 1000, DPY: , ID: 1, SEAT: -379838544
+   info 2025-04-09 13:00:19.399         ad   main   7351   7351                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:19.399         ad   main   7351   7351                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:19.399  local_svc   main   7351   7351                                  main - Starting local service process (7351).
+   info 2025-04-09 13:00:19.400  local_svc   main   7351   7351          base.data.config_application - Loading customized defaults layer.
+   info 2025-04-09 13:00:19.400  local_svc   main   7351   7351          base.data.config_application - Loading customized overrides layer.
+   info 2025-04-09 13:00:19.400  local_svc   main   7351   7351            permission_profile_manager - Migrating V0 -> V1
+   info 2025-04-09 13:00:19.409  local_svc   main   7351   7351                       fiber.scheduler - Spawning root fiber 1.
+   info 2025-04-09 13:00:19.409  local_svc   main   7351   7351                       fiber.scheduler - Scheduler started.
+   info 2025-04-09 13:00:19.410  local_svc   main   7351   7351    1                      app.service - Opening the IPC namespace.
+   info 2025-04-09 13:00:19.410  local_svc   main   7351   7351    1              fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:19.410  local_svc   main   7351   7351    1                      app.service - Logging into the IPC namespace.
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - 
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - Command Line params: '--tray'
+   info 2025-04-09 13:00:19.410         ad   main   7354   7354                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 2 (parent: 1).
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 3 'notifications' (parent: 1).
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 4 (parent: 1).
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 5 'license_adapter' (parent: 1).
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 6 'device_id' (parent: 1).
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                      app.service - Starting to supervise the IPC namespace.
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1                      app.service - Starting the connector.
+   info 2025-04-09 13:00:19.418  local_svc   main   7351   7351    1            anynet.connection_mgr - Generating a new certificate and key.
+   info 2025-04-09 13:00:19.429         ad   main   7348   7348                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:19.429         ad   main   7348   7348                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:19.429         ad   main   7348   7348                                  main - Starting frontend process (7348).
+   info 2025-04-09 13:00:19.429         ad   main   7354   7354                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:19.430         ad   main   7354   7354                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+explode 2025-04-09 13:00:19.430   frontend   main   7348   7348                   unix_base.x11_tools - Cannot open display
+explode 2025-04-09 13:00:19.430       tray   main   7354   7354                   unix_base.x11_tools - Cannot open display
+   info 2025-04-09 13:00:19.001  local_svc   main   7351   7351    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2025-04-09 13:00:19.001  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 7 'connection_mgr'.
+   info 2025-04-09 13:00:20.012  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 8 'main_relay_conn'.
+   info 2025-04-09 13:00:20.012  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 9 'tcp_acceptor'.
+   info 2025-04-09 13:00:20.012  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 10 'tcp_acceptor'.
+   info 2025-04-09 13:00:20.012  local_svc   main   7351   7351    1                      app.service - Setting up the listen sockets.
+   info 2025-04-09 13:00:20.015  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 11.
+   info 2025-04-09 13:00:20.015  local_svc   main   7351   7351    1                      app.service - Service startup completed.
+warning 2025-04-09 13:00:20.015  local_svc   main   7351   7351    1   base.signal.global.shared_file - open (/home/admin/.anydesk_ad_57d95ade/.iid) failed (2): Ingen sÃ¥dan fil eller filkatalog 
+   info 2025-04-09 13:00:20.021  local_svc   main   7351   7358           anynet.connectivity_monitor - Connecting to System-DBus...
+   info 2025-04-09 13:00:20.021  local_svc   main   7351   7351    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2025-04-09 13:00:20.021  local_svc   main   7351   7351    1            app.discovery_manager - Starting Discovery.
+   info 2025-04-09 13:00:20.022  local_svc   main   7351   7358           anynet.connectivity_monitor - Connection to System-DBus established.
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                   ad.wol_service - Starting WOL service.
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 12 'wol_service' (parent: 1).
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 13 'invitation_service' (parent: 1).
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning child fiber 14 'quiver_anynet_service' (parent: 1).
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                      app.service - Waiting for messages.
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                      app.service - Process start: 7348 (frontend).
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1           anynet.relay_connector - Short timeouts enabled.
+   info 2025-04-09 13:00:20.025  local_svc   main   7351   7351    1                      app.service - Process start: 7354 (control:2586223978).
+warning 2025-04-09 13:00:20.025  local_svc   main   7351   7351                   fiber.ipc_namespace - Zombie process detected (7348). Fixing the state.
+warning 2025-04-09 13:00:20.025  local_svc   main   7351   7351                   fiber.ipc_namespace - Zombie process detected (7354). Fixing the state.
+   info 2025-04-09 13:00:21.420  local_svc   main   7351   7351    1                      app.service - Process stop: 7348.
+   info 2025-04-09 13:00:21.420  local_svc   main   7351   7351    1           anynet.relay_connector - Short timeouts disabled.
+   info 2025-04-09 13:00:21.420  local_svc   main   7351   7351    1                      app.service - Process stop: 7354.
+   info 2025-04-09 13:00:21.444  local_svc   main   7351   7351    6                        device_id - device id service started.
+   info 2025-04-09 13:00:21.444  local_svc   main   7351   7351    7            anynet.connection_mgr - Starting connection manager fiber.
+   info 2025-04-09 13:00:21.444  local_svc   main   7351   7351    8           anynet.main_relay_conn - Starting main relay connection.
+   info 2025-04-09 13:00:21.444  local_svc   main   7351   7368           anynet.connectivity_monitor - Connecting to System-DBus...
+   info 2025-04-09 13:00:21.444  local_svc   main   7351   7368           anynet.connectivity_monitor - Connection to System-DBus established.
+   info 2025-04-09 13:00:21.453  local_svc   main   7351   7351    8                  fiber.scheduler - Spawning child fiber 15 'relay_connector' (parent: 8 'main_relay_conn').
+   info 2025-04-09 13:00:21.453  local_svc   main   7351   7351    9              anynet.tcp_acceptor - Listening on TCP port 7070 with IPv4.
+   info 2025-04-09 13:00:21.453  local_svc   main   7351   7351   10              anynet.tcp_acceptor - Listening on TCP port 7070 with IPv6.
+   info 2025-04-09 13:00:21.453  local_svc   main   7351   7351   11                anynet.any_socket - Listen fiber started.
+   info 2025-04-09 13:00:21.453  local_svc   main   7351   7351   12                      anynet.conn - Request before connect. Queueing.
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Relay connector started.
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Start proxy search.
+warning 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15                base.proxy_finder - Invalid system proxy configuration.
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Connecting to relay boot.net.anydesk.com (1/1)
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2025-04-09 13:00:21.456  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2025-04-09 13:00:21.535  local_svc   main   7351   7351   15           anynet.relay_connector - Using IPv4: 57.129.37.28
+   info 2025-04-09 13:00:21.557  local_svc   main   7351   7351   15                  fiber.scheduler - Spawning root fiber 16.
+   info 2025-04-09 13:00:21.577  local_svc   main   7351   7351                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') requested quit of fiber 16.
+   info 2025-04-09 13:00:21.578  local_svc   main   7351   7351   16                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:21.578  local_svc   main   7351   7351                       fiber.scheduler - Fiber 16 terminated.
+  error 2025-04-09 13:00:21.578  local_svc   main   7351   7351   15           anynet.relay_connector - Connection failed (result_closed)
+   info 2025-04-09 13:00:21.623  local_svc   main   7351   7351   15           anynet.relay_connector - Using IPv4: 185.229.191.39
+   info 2025-04-09 13:00:21.641  local_svc   main   7351   7351   15                  fiber.scheduler - Spawning root fiber 17.
+   info 2025-04-09 13:00:21.703  local_svc   main   7351   7351   15           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2025-04-09 13:00:21.703  local_svc   main   7351   7351   15                  fiber.scheduler - Spawning root fiber 18.
+   info 2025-04-09 13:00:21.721  local_svc   main   7351   7351   15                        handshake - Using protocol version 3.
+   info 2025-04-09 13:00:21.739  local_svc   main   7351   7351                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') requested quit of fiber 18.
+   info 2025-04-09 13:00:21.739  local_svc   main   7351   7351   18                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:21.739  local_svc   main   7351   7351                       fiber.scheduler - Fiber 18 terminated.
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') requested quit of fiber 17.
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   17                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351                       fiber.scheduler - Fiber 17 terminated.
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Connection terminated: anynet_invalid_zone
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Received a new server list (10 servers)
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Connecting to relay relay-a94e7ea4.net.anydesk.com (1/10)
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2025-04-09 13:00:21.740  local_svc   main   7351   7351   15           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2025-04-09 13:00:21.808  local_svc   main   7351   7351   15           anynet.relay_connector - Using IPv4: 208.115.231.166
+   info 2025-04-09 13:00:21.828  local_svc   main   7351   7351   15                  fiber.scheduler - Spawning root fiber 19.
+   info 2025-04-09 13:00:21.896  local_svc   main   7351   7351   15           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2025-04-09 13:00:21.896  local_svc   main   7351   7351   15                  fiber.scheduler - Spawning root fiber 20.
+   info 2025-04-09 13:00:22.149  local_svc   main   7351   7351   15                        handshake - Using protocol version 3.
+   info 2025-04-09 13:00:22.273  local_svc   main   7351   7351   15           anynet.relay_connector - Connection established.
+   info 2025-04-09 13:00:22.273  local_svc   main   7351   7351   15           anynet.relay_connector - Relay connector stopped.
+   info 2025-04-09 13:00:22.273  local_svc   main   7351   7351                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') terminated.
+   info 2025-04-09 13:00:22.312  local_svc   main   7351   7351    8           anynet.main_relay_conn - Network ID: main
+   info 2025-04-09 13:00:22.335  local_svc   main   7351   7351    8                anynet.relay_conn - External address: 92.62.196.78:1026.
+   info 2025-04-09 13:00:22.341  local_svc   main   7351   7351    8           anynet.main_relay_conn - Main relay ID: a94e7ea4
+   info 2025-04-09 13:00:22.341  local_svc   main   7351   7351    8           anynet.main_relay_conn - Detected 4 new networks.
+   info 2025-04-09 13:00:22.341  local_svc   main   7351   7351   14                   anynet_service - Relay connection state changed: Connected.
+   info 2025-04-09 13:00:22.344  local_svc   main   7351   7351    7            anynet.connection_mgr - Main relay connection established.
+   info 2025-04-09 13:00:22.344  local_svc   main   7351   7351    7            anynet.connection_mgr - New user data. Client-ID: 1393952133.
+   info 2025-04-09 13:00:22.344  local_svc   main   7351   7351    7            anynet.connection_mgr - Registering license from custom config.
+   info 2025-04-09 13:00:22.350  local_svc   main   7351   7351    6                        device_id - Forcing device id update.
+   info 2025-04-09 13:00:22.350  local_svc   main   7351   7351    6                        device_id - Requesting device id update.
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351    1                    app.discovery - Starting.
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351    1                  fiber.scheduler - Spawning root fiber 21 'discovery'.
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                    app.discovery - Current Discovery revision: 0
+  error 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                anynet.udp_socket - Failed applying option 42 to multicast group at interface 2 (98, Adressen er allerede i brug)
+  error 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                anynet.udp_socket - Failed applying option 42 to multicast group at interface 3 (98, Adressen er allerede i brug)
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                    app.discovery - Joined multicast group 239.255.102.18:50001.
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                    app.discovery - Bound to port: 50001
+   info 2025-04-09 13:00:22.387  local_svc   main   7351   7351   21                anynet.udp_socket - Multicast loop option set to 0
+   info 2025-04-09 13:00:22.390  local_svc   main   7351   7351   21                    app.discovery - Discovery fiber started.
+   info 2025-04-09 13:00:22.437  local_svc   main   7351   7351    8           anynet.main_relay_conn - New alias: "".
+   info 2025-04-09 13:00:22.448  local_svc   main   7351   7351    8           anynet.main_relay_conn - New license: professional-2.
+   info 2025-04-09 13:00:22.460  local_svc   main   7351   7351    7            anynet.connection_mgr - Registered license from config for 84abf93242480f13aaba750e8dd5dd50c6d19e90e08158d00be16f8d4209fb8e: professional-2
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    1                      app.service - Initiating auto-shutdown.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 4 (parent: 1).
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 4 (parent: 1) terminated.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 5 'license_adapter' (parent: 1).
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    5                      fib_service - Caught exception. quitting.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 5 'license_adapter' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 6 'device_id' (parent: 1).
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    6                      fib_service - Caught exception. quitting.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    6                        device_id - device id service stopped.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 6 'device_id' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 3 'notifications' (parent: 1).
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    3                      fib_service - Caught exception. quitting.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 3 'notifications' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 2 (parent: 1).
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351                       fiber.scheduler - Fiber 2 (parent: 1) terminated.
+   info 2025-04-09 13:00:31.424  local_svc   main   7351   7351    1                      app.service - Service shutdown.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7358           anynet.connectivity_monitor - Closing System-DBus-Connection.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 12 'wol_service' (parent: 1).
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351   12                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 12 'wol_service' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 13 'invitation_service' (parent: 1).
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351   13                      fib_service - Caught exception. quitting.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 13 'invitation_service' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 14 'quiver_anynet_service' (parent: 1).
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 14 'quiver_anynet_service' (parent: 1) terminated.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 11.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351   11                anynet.any_socket - Listen fiber stopped.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 11 terminated.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 8 'main_relay_conn'.
+   info 2025-04-09 13:00:31.425  local_svc   main   7351   7351    8           anynet.main_relay_conn - Main relay connection closed.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351    8            anynet.connection_mgr - Forcing cleanup.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351                       fiber.scheduler - Fiber 8 'main_relay_conn' requested quit of fiber 20.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351   20                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351                       fiber.scheduler - Fiber 20 terminated.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351    7            anynet.connection_mgr - Main relay connection failed (result_quit).
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351                       fiber.scheduler - Fiber 8 'main_relay_conn' requested quit of fiber 19.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351   19                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:31.433  local_svc   main   7351   7351                       fiber.scheduler - Fiber 19 terminated.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7368           anynet.connectivity_monitor - Closing System-DBus-Connection.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 8 'main_relay_conn' terminated.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 7 'connection_mgr'.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351    7            anynet.connection_mgr - Connection manager fiber quit.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 7 'connection_mgr' terminated.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 10 'tcp_acceptor'.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351   10              anynet.tcp_acceptor - Received quit.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 10 'tcp_acceptor' terminated.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 requested quit of fiber 9 'tcp_acceptor'.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351    9              anynet.tcp_acceptor - Received quit.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 9 'tcp_acceptor' terminated.
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351    1                  fiber.scheduler - Quitting scheduler (0).
+   info 2025-04-09 13:00:31.434  local_svc   main   7351   7351                       fiber.scheduler - Fiber 1 terminated.
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351                       fiber.scheduler - Quitting all fibers.
+  error 2025-04-09 13:00:31.437  local_svc   main   7351   7351   21                anynet.udp_socket - Failed applying option 45 to multicast group at interface 2 (99, Kan ikke tildele den Ã¸nskede adresse)
+  error 2025-04-09 13:00:31.437  local_svc   main   7351   7351   21                anynet.udp_socket - Failed applying option 45 to multicast group at interface 3 (99, Kan ikke tildele den Ã¸nskede adresse)
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351   21                    app.discovery - Left multicast group 239.255.102.18:50001.
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351   21                    app.discovery - Discovery fiber stopped.
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351                       fiber.scheduler - Fiber 21 'discovery' terminated.
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351                       fiber.scheduler - All fibers terminated.
+   info 2025-04-09 13:00:31.437  local_svc   main   7351   7351                       fiber.scheduler - Scheduler stopped (0).
+   info 2025-04-09 13:00:31.438  local_svc   main   7351   7351                                  main - Exiting normally.
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - 
+   info 2025-04-09 13:00:34.608         ad   main   7434   7434                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:34.609         ad   main   7434   7434                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:34.627         ad   main   7434   7434                   fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:34.627         ad   main   7434   7434                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:34.627         ad   main   7434   7434                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - 
+   info 2025-04-09 13:00:34.645         ad   main   7440   7440                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:34.646         ad   main   7440   7440                                  main - Command Line params: '--local-service'
+   info 2025-04-09 13:00:34.646         ad   main   7440   7440                                  main - Found GLib Version: 2.74.
+warning 2025-04-09 13:00:34.668         ad   main   7440   7440                   fiber.ipc_namespace - Local namespace without service.
+   info 2025-04-09 13:00:34.668         ad   main   7440   7440                   fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:34.671         ad   main   7440   7440                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:34.671         ad   main   7440   7440                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:34.680         ad   main   7440   7440             app.named_process_starter - Spawning new process with: UID: 1000, DPY: , ID: 1, SEAT: -1191095968
+   info 2025-04-09 13:00:34.687         ad   main   7440   7440                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:34.687         ad   main   7440   7440                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:34.687  local_svc   main   7440   7440                                  main - Starting local service process (7440).
+   info 2025-04-09 13:00:34.688  local_svc   main   7440   7440          base.data.config_application - Loading customized defaults layer.
+   info 2025-04-09 13:00:34.688  local_svc   main   7440   7440          base.data.config_application - Loading customized overrides layer.
+   info 2025-04-09 13:00:34.689  local_svc   main   7440   7440                       fiber.scheduler - Spawning root fiber 1.
+   info 2025-04-09 13:00:34.689  local_svc   main   7440   7440                       fiber.scheduler - Scheduler started.
+   info 2025-04-09 13:00:34.690  local_svc   main   7440   7440    1                      app.service - Opening the IPC namespace.
+   info 2025-04-09 13:00:34.690  local_svc   main   7440   7440    1              fiber.ipc_namespace - Global: no
+   info 2025-04-09 13:00:34.690  local_svc   main   7440   7440    1                      app.service - Logging into the IPC namespace.
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 2 (parent: 1).
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 3 'notifications' (parent: 1).
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 4 (parent: 1).
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 5 'license_adapter' (parent: 1).
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 6 'device_id' (parent: 1).
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                      app.service - Starting to supervise the IPC namespace.
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1                      app.service - Starting the connector.
+   info 2025-04-09 13:00:34.694  local_svc   main   7440   7440    1            anynet.connection_mgr - Importing certificate and key.
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - 
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - Command Line params: '--tray'
+   info 2025-04-09 13:00:34.704         ad   main   7443   7443                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:34.705  local_svc   main   7440   7440    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2025-04-09 13:00:34.706  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 7 'connection_mgr'.
+   info 2025-04-09 13:00:34.717  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 8 'main_relay_conn'.
+   info 2025-04-09 13:00:34.717  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 9 'tcp_acceptor'.
+   info 2025-04-09 13:00:34.717  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 10 'tcp_acceptor'.
+   info 2025-04-09 13:00:34.717  local_svc   main   7440   7440    1                      app.service - Setting up the listen sockets.
+   info 2025-04-09 13:00:34.718         ad   main   7443   7443                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:34.718         ad   main   7443   7443                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:34.722       tray   main   7443   7443          base.data.config_application - Loading customized defaults layer.
+   info 2025-04-09 13:00:34.722       tray   main   7443   7443          base.data.config_application - Loading customized overrides layer.
+   info 2025-04-09 13:00:34.722  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 11.
+   info 2025-04-09 13:00:34.722  local_svc   main   7440   7440    1                      app.service - Service startup completed.
+   info 2025-04-09 13:00:34.723  local_svc   main   7440   7448           anynet.connectivity_monitor - Connecting to System-DBus...
+   info 2025-04-09 13:00:34.723  local_svc   main   7440   7440    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2025-04-09 13:00:34.723  local_svc   main   7440   7440    1            app.discovery_manager - Starting Discovery.
+   info 2025-04-09 13:00:34.723  local_svc   main   7440   7448           anynet.connectivity_monitor - Connection to System-DBus established.
+   info 2025-04-09 13:00:34.726  local_svc   main   7440   7440    1                   ad.wol_service - Starting WOL service.
+   info 2025-04-09 13:00:34.726  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 12 'wol_service' (parent: 1).
+   info 2025-04-09 13:00:34.726  local_svc   main   7440   7440    1               statistics_service - cid changed - resetting consents for the system.
+   info 2025-04-09 13:00:34.728         ad   main   7434   7434                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:34.729       tray   main   7443   7443                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2025-04-09 13:00:34.729       tray   main   7443   7443                           gui.gui_app - Using std-resolution bitmaps.
+   info 2025-04-09 13:00:34.729         ad   main   7434   7434                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:34.729         ad   main   7434   7434                                  main - Starting frontend process (7434).
+   info 2025-04-09 13:00:34.731   frontend   main   7434   7434          base.data.config_application - Loading customized defaults layer.
+   info 2025-04-09 13:00:34.731   frontend   main   7434   7434          base.data.config_application - Loading customized overrides layer.
+   info 2025-04-09 13:00:34.741   frontend   main   7434   7434                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2025-04-09 13:00:34.741   frontend   main   7434   7434                           gui.gui_app - Using std-resolution bitmaps.
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 13 'invitation_service' (parent: 1).
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 14 'quiver_anynet_service' (parent: 1).
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1                      app.service - Waiting for messages.
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1                      app.service - Process start: 7434 (frontend).
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1           anynet.relay_connector - Short timeouts enabled.
+   info 2025-04-09 13:00:34.757  local_svc   main   7440   7440    1                      app.service - Process start: 7443 (control:2586223978).
+   info 2025-04-09 13:00:34.768   frontend   main   7434   7434                       base.signal.hub - 8 threads.
+   info 2025-04-09 13:00:34.771       tray   main   7443   7443                       base.signal.hub - 1 threads.
+   info 2025-04-09 13:00:34.771       tray   main   7443   7443                    app.tunnel_ft_comp - Ready.
+warning 2025-04-09 13:00:34.781   frontend   main   7434   7434        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nÃ¦gtet 
+warning 2025-04-09 13:00:34.782   frontend   main   7434   7434                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:34.784  local_svc   main   7440   7440    6                        device_id - device id service started.
+   info 2025-04-09 13:00:34.784  local_svc   main   7440   7440    7            anynet.connection_mgr - Starting connection manager fiber.
+   info 2025-04-09 13:00:34.784  local_svc   main   7440   7440    8           anynet.main_relay_conn - Starting main relay connection.
+   info 2025-04-09 13:00:34.784  local_svc   main   7440   7453           anynet.connectivity_monitor - Connecting to System-DBus...
+   info 2025-04-09 13:00:34.785   frontend   timr   7434   7454          base.signal.local.timer_impl - Initialized master timer.
+   info 2025-04-09 13:00:34.785  local_svc   main   7440   7453           anynet.connectivity_monitor - Connection to System-DBus established.
+   info 2025-04-09 13:00:34.791  local_svc   main   7440   7440    8                  fiber.scheduler - Spawning child fiber 15 'relay_connector' (parent: 8 'main_relay_conn').
+   info 2025-04-09 13:00:34.791  local_svc   main   7440   7440    9              anynet.tcp_acceptor - Listening on TCP port 7070 with IPv4.
+   info 2025-04-09 13:00:34.791  local_svc   main   7440   7440   10              anynet.tcp_acceptor - Listening on TCP port 7070 with IPv6.
+   info 2025-04-09 13:00:34.791  local_svc   main   7440   7440   11                anynet.any_socket - Listen fiber started.
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Relay connector started.
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Start proxy search.
+warning 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15                base.proxy_finder - Invalid system proxy configuration.
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Connecting to relay relay-a94e7ea4.net.anydesk.com (1/2)
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2025-04-09 13:00:34.795  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2025-04-09 13:00:34.851       tray   ctrl   7443   7469                      unix_app.control - Control startup.
+  error 2025-04-09 13:00:34.872       tray   ctrl   7443   7469              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+   info 2025-04-09 13:00:34.888   frontend   ctrl   7434   7472                     unix_app.frontend - Frontend startup.
+   info 2025-04-09 13:00:34.888   frontend   ctrl   7434   7472                     unix_app.frontend - Logging the frontend in.
+warning 2025-04-09 13:00:34.891   frontend   ctrl   7434   7472        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+warning 2025-04-09 13:00:34.891   frontend   ctrl   7434   7472                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:34.924  local_svc   main   7440   7440    1                      app.service - New IPC connection.
+   info 2025-04-09 13:00:34.924  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 16 'ipc_connection' (parent: 1).
+   info 2025-04-09 13:00:34.924  local_svc   main   7440   7440    1                      app.service - New IPC connection.
+   info 2025-04-09 13:00:34.924  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 17 'ipc_connection' (parent: 1).
+   info 2025-04-09 13:00:34.924  local_svc   main   7440   7440   15           anynet.relay_connector - Using IPv4: 208.115.231.166
+   info 2025-04-09 13:00:34.936  local_svc   main   7440   7440   16                      app.service - Creating an IPC accept socket.
+   info 2025-04-09 13:00:34.941  local_svc   main   7440   7440   16                      app.service - Connected to 7443 (control:2586223978).
+   info 2025-04-09 13:00:34.941  local_svc   main   7440   7440   17                      app.service - Creating an IPC accept socket.
+   info 2025-04-09 13:00:34.946  local_svc   main   7440   7440   17                      app.service - Connected to 7434 (frontend).
+   info 2025-04-09 13:00:34.961  local_svc   main   7440   7440   15                  fiber.scheduler - Spawning root fiber 18.
+   info 2025-04-09 13:00:34.961  local_svc   main   7440   7440   16                      app.service - Process login detected.
+   info 2025-04-09 13:00:34.961  local_svc   main   7440   7440   16                  fiber.scheduler - Spawning root fiber 19 'account_adapter'.
+   info 2025-04-09 13:00:34.961  local_svc   main   7440   7440   16                      app.service - Using existing control (7443).
+   info 2025-04-09 13:00:34.961  local_svc   main   7440   7440   17                      app.service - Process login detected.
+  error 2025-04-09 13:00:34.962       tray   wrk0   7443   7470              base.prot.packet_factory - Invalid packet received (type=26, 8 bytes).
+  error 2025-04-09 13:00:34.962       tray   wrk0   7443   7470                        hub_ipc_socket - IPC packet deserialization failed.
+  error 2025-04-09 13:00:34.962       tray   wrk0   7443   7470              base.prot.packet_factory - Invalid packet received (type=111, 4 bytes).
+  error 2025-04-09 13:00:34.962       tray   wrk0   7443   7470                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2025-04-09 13:00:34.974  local_svc   main   7440   7440   19                  account_adapter - Starting for session 2586223978
+   info 2025-04-09 13:00:34.974  local_svc   main   7440   7440   19                  account_adapter - Preparing quiver based account service for os-session 2586223978
+warning 2025-04-09 13:00:34.978       tray   wrk0   7443   7470                      unix_app.control - Dropping out of date license response.
+warning 2025-04-09 13:00:34.978       tray   wrk0   7443   7470        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+   info 2025-04-09 13:00:34.978   frontend   ctrl   7434   7472                     unix_app.frontend - Received process login response.
+warning 2025-04-09 13:00:34.978   frontend   ctrl   7434   7472                                   sif - Dropping out of date license response.
+   info 2025-04-09 13:00:34.987  local_svc   main   7440   7440   16                      app.service - 5 Unexpected: signal_msg_t.
+   info 2025-04-09 13:00:34.987  local_svc   main   7440   7440   17                      app.service - 5 Unexpected: signal_msg_t.
+   info 2025-04-09 13:00:35.029  local_svc   main   7440   7440   15           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2025-04-09 13:00:35.029  local_svc   main   7440   7440   15                  fiber.scheduler - Spawning root fiber 20.
+   info 2025-04-09 13:00:35.042  local_svc   main   7440   7440   15                        handshake - Using protocol version 3.
+   info 2025-04-09 13:00:35.042   frontend filetransfer   7434   7508                       base.task_queue - Waiting for commands.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') requested quit of fiber 20.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   20                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440                       fiber.scheduler - Fiber 20 terminated.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') requested quit of fiber 18.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   18                      fiber.fiber - Received quit.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440                       fiber.scheduler - Fiber 18 terminated.
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Connection terminated: anynet_relay_full
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Received a new server list (10 servers)
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Connecting to relay relay-ed8907be.net.anydesk.com (1/10)
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2025-04-09 13:00:35.088  local_svc   main   7440   7440   15           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+warning 2025-04-09 13:00:35.138   frontend   main   7434   7434        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+warning 2025-04-09 13:00:35.138   frontend   main   7434   7434                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:35.152  local_svc   main   7440   7440   15           anynet.relay_connector - Using IPv4: 208.115.231.146
+   info 2025-04-09 13:00:35.205  local_svc   main   7440   7440   15                  fiber.scheduler - Spawning root fiber 21.
+   info 2025-04-09 13:00:35.235   frontend    x11   7434   7449                     base.monitor_info - Monitor 0: x/y : 0/0
+   info 2025-04-09 13:00:35.235   frontend    x11   7434   7449                     base.monitor_info - Monitor 0: w/h : 1280/720
+   info 2025-04-09 13:00:35.235   frontend    x11   7434   7449                     base.monitor_info - Monitor 0 output=33
+  error 2025-04-09 13:00:35.235   frontend    x11   7434   7449                     base.monitor_info - Could not find a primary monitor
+   info 2025-04-09 13:00:35.305  local_svc   main   7440   7440   15           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2025-04-09 13:00:35.305  local_svc   main   7440   7440   15                  fiber.scheduler - Spawning root fiber 22.
+   info 2025-04-09 13:00:35.317  local_svc   main   7440   7440   15                        handshake - Using protocol version 3.
+   info 2025-04-09 13:00:36.122  local_svc   main   7440   7440   15           anynet.relay_connector - Connection established.
+   info 2025-04-09 13:00:36.122  local_svc   main   7440   7440   15           anynet.relay_connector - Relay connector stopped.
+   info 2025-04-09 13:00:36.122  local_svc   main   7440   7440                       fiber.scheduler - Fiber 15 'relay_connector' (parent: 8 'main_relay_conn') terminated.
+   info 2025-04-09 13:00:36.165  local_svc   main   7440   7440    8           anynet.main_relay_conn - Network ID: main
+   info 2025-04-09 13:00:36.187  local_svc   main   7440   7440    8                anynet.relay_conn - External address: 92.62.196.78:58392.
+   info 2025-04-09 13:00:36.198  local_svc   main   7440   7440    8           anynet.main_relay_conn - Reporting system information.
+   info 2025-04-09 13:00:36.198  local_svc   main   7440   7440    8           anynet.main_relay_conn - Main relay ID: ed8907be
+   info 2025-04-09 13:00:36.199  local_svc   main   7440   7440    8           anynet.main_relay_conn - Detected 4 new networks.
+   info 2025-04-09 13:00:36.199  local_svc   main   7440   7440   14                   anynet_service - Relay connection state changed: Connected.
+   info 2025-04-09 13:00:36.199   frontend   ctrl   7434   7472                     unix_app.frontend - Relay state changed (0 -> 2).
+   info 2025-04-09 13:00:36.202  local_svc   main   7440   7440    7            anynet.connection_mgr - Main relay connection established.
+   info 2025-04-09 13:00:36.202  local_svc   main   7440   7440    7            anynet.connection_mgr - New user data. Client-ID: 1393952133.
+   info 2025-04-09 13:00:36.202  local_svc   main   7440   7440    7            anynet.connection_mgr - Cannot register license (registered before).
+   info 2025-04-09 13:00:36.205  local_svc   main   7440   7440    6                        device_id - Requesting device id validation.
+   info 2025-04-09 13:00:36.285  local_svc   main   7440   7440    1                    app.discovery - Starting.
+   info 2025-04-09 13:00:36.285  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning root fiber 23 'discovery'.
+   info 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                    app.discovery - Current Discovery revision: 0
+  error 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                anynet.udp_socket - Failed applying option 42 to multicast group at interface 2 (98, Adressen er allerede i brug)
+  error 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                anynet.udp_socket - Failed applying option 42 to multicast group at interface 3 (98, Adressen er allerede i brug)
+   info 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                    app.discovery - Joined multicast group 239.255.102.18:50001.
+   info 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                    app.discovery - Bound to port: 50001
+   info 2025-04-09 13:00:36.286  local_svc   main   7440   7440   23                anynet.udp_socket - Multicast loop option set to 0
+   info 2025-04-09 13:00:36.289  local_svc   main   7440   7440   23                    app.discovery - Discovery fiber started.
+   info 2025-04-09 13:00:36.290  local_svc   main   7440   7440    6                        device_id - Device ID valid.
+   info 2025-04-09 13:00:36.404  local_svc   main   7440   7440    1                      app.service - License backend service status changed (0->1)
+   info 2025-04-09 13:00:36.404       tray   wrk0   7443   7470                      unix_app.control - Received new license info. (professional-2, 31)
+   info 2025-04-09 13:00:36.430   frontend   wrk4   7434   7477                   anymessage.provider - License changed. Requesting messages update.
+   info 2025-04-09 13:00:36.503  local_svc   main   7440   7440   17                  fiber.scheduler - Spawning root fiber 24 'online_monitor'.
+   info 2025-04-09 13:00:36.503  local_svc   main   7440   7440   24               app.online_monitor - Online state monitor started.
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                         impl_selector - using neon
+ * * * * * * * * * * * * * * * * * *
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * AnyDesk Linux Startup *
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * Version 6.4.1 ((unknown) aff272781893a3d00c45151ad0f7dffd48dc1d6f)
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * Build 20250210142749
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * Prefix ad_57d95ade
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * Custom Client (3d6fdcd9-985e-4088-95aa-0f8b1b2b6d23)
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - * Copyright (C) 2025 AnyDesk Software GmbH *
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - 
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - Distribution Info: Debian GNU/Linux 12 (bookworm)
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - Command Line params: '--settings'
+   info 2025-04-09 13:00:49.757         ad   main   7610   7610                                  main - Found GLib Version: 2.74.
+   info 2025-04-09 13:00:49.773         ad   main   7610   7610                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:49.773         ad   main   7610   7610                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:49.773         ad   main   7610   7610                       app.common_path - user_data_dir = /home/admin/.anydesk_ad_57d95ade, logged_in_user_data_dir = /home/admin/.anydesk_ad_57d95ade, current_home = /home/admin
+
+   info 2025-04-09 13:00:49.773         ad   main   7610   7610                       app.common_path - initialized user = /home/admin/.anydesk_ad_57d95ade, system = /home/admin/.anydesk_ad_57d95ade
+   info 2025-04-09 13:00:49.773         ad   main   7610   7610                                  main - Starting frontend process (7610).
+   info 2025-04-09 13:00:49.775   settings   main   7610   7610          base.data.config_application - Loading customized defaults layer.
+   info 2025-04-09 13:00:49.775   settings   main   7610   7610          base.data.config_application - Loading customized overrides layer.
+   info 2025-04-09 13:00:49.776   settings   main   7610   7610                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2025-04-09 13:00:49.776   settings   main   7610   7610                           gui.gui_app - Using std-resolution bitmaps.
+   info 2025-04-09 13:00:49.810   settings   main   7610   7610                       base.signal.hub - 8 threads.
+warning 2025-04-09 13:00:49.825   settings   main   7610   7610        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nÃ¦gtet 
+warning 2025-04-09 13:00:49.826   settings   main   7610   7610                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:49.829   settings   timr   7610   7616          base.signal.local.timer_impl - Initialized master timer.
+   info 2025-04-09 13:00:49.902   settings   ctrl   7610   7624                     unix_app.frontend - Frontend startup.
+   info 2025-04-09 13:00:49.903   settings   ctrl   7610   7624                     unix_app.frontend - Logging the frontend in.
+warning 2025-04-09 13:00:49.903   settings   ctrl   7610   7624        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+   info 2025-04-09 13:00:49.903  local_svc   main   7440   7440    1                      app.service - Process start: 7610 (frontend).
+warning 2025-04-09 13:00:49.903   settings   ctrl   7610   7624                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:49.906  local_svc   main   7440   7440    1                      app.service - New IPC connection.
+   info 2025-04-09 13:00:49.906  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 25 'ipc_connection' (parent: 1).
+   info 2025-04-09 13:00:49.906  local_svc   main   7440   7440   25                      app.service - Creating an IPC accept socket.
+   info 2025-04-09 13:00:49.912  local_svc   main   7440   7440   25                      app.service - Connected to 7610 (frontend).
+   info 2025-04-09 13:00:49.912  local_svc   main   7440   7440   25                      app.service - Process login detected.
+   info 2025-04-09 13:00:49.913   settings   ctrl   7610   7624                     unix_app.frontend - Received process login response.
+   info 2025-04-09 13:00:49.913  local_svc   main   7440   7440   25                      app.service - 5 Unexpected: signal_msg_t.
+warning 2025-04-09 13:00:49.913   settings   ctrl   7610   7624                                   sif - Dropping out of date license response.
+   info 2025-04-09 13:00:49.971   settings filetransfer   7610   7641                       base.task_queue - Waiting for commands.
+   info 2025-04-09 13:00:50.081   settings   main   7610   7610                     one_time_password - Resetting 2FA key.
+warning 2025-04-09 13:00:50.114   settings   main   7610   7610        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+   info 2025-04-09 13:00:50.114   settings   main   7610   7610                     gui.privacy_panel - Unable to load user image
+warning 2025-04-09 13:00:50.163   settings   main   7610   7610        base.signal.global.shared_file - open (/var/lib/AccountsService/users/admin) failed (13): Adgang nægtet 
+warning 2025-04-09 13:00:50.163   settings   main   7610   7610                         app.user_info - Could not update user image (An unknown error occurred.). Defaulting.
+   info 2025-04-09 13:00:50.201   settings    x11   7610   7615                     base.monitor_info - Monitor 0: x/y : 0/0
+   info 2025-04-09 13:00:50.201   settings    x11   7610   7615                     base.monitor_info - Monitor 0: w/h : 1280/720
+   info 2025-04-09 13:00:50.201   settings    x11   7610   7615                     base.monitor_info - Monitor 0 output=33
+  error 2025-04-09 13:00:50.201   settings    x11   7610   7615                     base.monitor_info - Could not find a primary monitor
+   info 2025-04-09 13:00:50.224  local_svc   main   7440   7440   25           anynet.main_relay_conn - Reporting system information.
+   info 2025-04-09 13:00:50.398  local_svc   main   7440   7440   25                  fiber.scheduler - Spawning root fiber 26 'online_monitor'.
+   info 2025-04-09 13:00:50.398  local_svc   main   7440   7440   26               app.online_monitor - Online state monitor started.
+   info 2025-04-09 13:00:50.467   settings   main   7610   7610                       gui.main_window - Hide panel 0
+   info 2025-04-09 13:01:07.693   settings   main   7610   7610                       gui.main_window - The last page has been removed (5). Application will be closed.
+   info 2025-04-09 13:01:07.693   settings   main   7610   7610                       gui.main_window - Exiting due to user request via menu.
+   info 2025-04-09 13:01:07.693   settings   ctrl   7610   7624                     unix_app.frontend - Frontend shutdown.
+   info 2025-04-09 13:01:07.693  local_svc   main   7440   7440    1                      app.service - Process stop: 7610.
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440   25                      app.service - IPC socket closed.
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440                       fiber.scheduler - Fiber 25 'ipc_connection' (parent: 1) requested quit of fiber 26 'online_monitor'.
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440   26               app.online_monitor - Online state monitor stopped.
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440                       fiber.scheduler - Fiber 26 'online_monitor' terminated.
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440   25                      app.service - Fiber exit (ipc).
+   info 2025-04-09 13:01:07.925  local_svc   main   7440   7440                       fiber.scheduler - Fiber 25 'ipc_connection' (parent: 1) terminated.
+   info 2025-04-09 13:01:07.927   settings   ctrl   7610   7624                       base.signal.hub - Control quit.
+   info 2025-04-09 13:01:07.931   settings   main   7610   7610               app.local_file_transfer - Stopping.
+   info 2025-04-09 13:01:07.934   settings   main   7610   7610               app.local_file_transfer - File transfer stopped.
+   info 2025-04-09 13:01:08.008   settings   timr   7610   7616          base.signal.local.timer_impl - Timer wants to quit.
+   info 2025-04-09 13:01:08.020   settings   main   7610   7610              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2025-04-09 13:01:08.021   settings   main   7610   7610                                  main - Exiting normally.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   11                anynet.any_socket - Accept request from 1449112680 (via relay).
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440    1                      app.service - New ANY connection.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 27 'anynet_connection' (parent: 1).
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   27                      app.service - Creating a ANY accept socket.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   27         anynet.client_packetizer - Adjusted send buffer: 8192
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   27                  fiber.scheduler - Spawning root fiber 28 'any_socket_accept'.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   28                anynet.any_socket - Accept fiber spawned.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   28            anynet.connection_mgr - Listening on port 7070 with IPv4
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   28            anynet.connection_mgr - Listening on port 7070 with IPv6
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   28                anynet.any_socket - Accepting from 1449112680.
+   info 2025-04-09 13:01:42.906  local_svc   main   7440   7440   28                anynet.any_socket - Retrieving client information.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Client-ID: 1449112680 (mbi_office02@ad) (FPR: 5b76eb7a6552).
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Logged in from 92.62.196.78:51399 on relay 4757ad50.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Making a new connection to client 5b76eb7a655201a6a07e052b4f1cc1ce2b44b0b7.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                  fiber.scheduler - Spawning root fiber 29 'managed_client_conn'.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Accepting the connect request.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.relay_conn - Got local address (172.17.60.100:58392).
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Fetching local IPs
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Found 5 local IPs
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Found 7 direct connection candidates to provide to remote.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 1 [[fe80:0:0:0:e72b:92c7:7f80:15f4]:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 2 [172.18.0.1:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 3 [172.17.60.101:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 4 [172.17.60.100:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 5 [[fe80:0:0:0:a907:9a43:79f7:a5e3]:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 6 [92.62.196.78:7070].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28            anynet.connection_mgr - Candidate 7 [92.62.196.78:58392].
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Connect request accepted (direct).
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440    8                anynet.relay_conn - IPv4 punch socket set up on port 58392.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440    8                anynet.relay_conn - IPv6 punch socket set up on port 58392.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Connect request accepted, tunnel route created.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Local vport: 10, Remote vport: 10, SID: 1743554474565305
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Sending 0 queued blobs.
+   info 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Initiating the managed connection.
+warning 2025-04-09 13:01:43.008  local_svc   main   7440   7440   28                anynet.any_socket - Unexpected: connect_msg_t.
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   29                  fiber.scheduler - Spawning child fiber 30 (parent: 29 'managed_client_conn').
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30           anynet.punch_connector - Spawning fibers for 3 potential connect addresses.
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30           anynet.punch_connector - -> Spawning: 172.17.60.15:7070 (0).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30                  fiber.scheduler - Spawning child fiber 31 'tcp_connect' (parent: 30).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30           anynet.punch_connector - -> Spawning: 92.62.196.78:23507 (1).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30                  fiber.scheduler - Spawning child fiber 32 'tcp_punch' (parent: 30).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30           anynet.punch_connector - -> Spawning: 92.62.196.78:7070 (2).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   30                  fiber.scheduler - Spawning child fiber 33 'tcp_connect' (parent: 30).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   31           anynet.punch_connector - [172.17.60.15:7070] Connecting
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   32           anynet.punch_connector - [92.62.196.78:23507] Connecting (lport 58392, attempt 0).
+   info 2025-04-09 13:01:43.009  local_svc   main   7440   7440   33           anynet.punch_connector - [92.62.196.78:7070] Connecting
+   info 2025-04-09 13:01:43.010  local_svc   main   7440   7440   31                  fiber.scheduler - Spawning root fiber 34.
+   info 2025-04-09 13:01:43.038  local_svc   main   7440   7440    9                  fiber.scheduler - Spawning root fiber 35.
+   info 2025-04-09 13:01:43.038  local_svc   main   7440   7440   35            anynet.connection_mgr - [172.17.60.15:64600] Incoming connection.
+   info 2025-04-09 13:01:43.039  local_svc   main   7440   7440   35                  fiber.scheduler - Spawning root fiber 36.
+   info 2025-04-09 13:01:43.063  local_svc   main   7440   7440   35                  fiber.scheduler - Spawning root fiber 37.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   35                        handshake - Using protocol version 1.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   35            anynet.connection_mgr - [172.17.60.15:64600] Managed connection.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440                       fiber.scheduler - Fiber 35 terminated.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   30                  fiber.scheduler - Spawning child fiber 38 (parent: 30).
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   38           anynet.punch_connector - [172.17.60.15:64600] Incoming connection.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   38           anynet.punch_connector - [172.17.60.15:64600] Fingerprint verified.
+   info 2025-04-09 13:01:43.064  local_svc   main   7440   7440   38           anynet.punch_connector - [172.17.60.15:64600] Waiting for remote select.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 38 (parent: 30) terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   30           anynet.punch_connector - [172.17.60.15:64600] Connection selected.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 30 (parent: 29 'managed_client_conn') requested quit of fiber 31 'tcp_connect' (parent: 30).
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   31           anynet.punch_connector - [172.17.60.15:7070] TLS handshake failed (result_quit).
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 31 'tcp_connect' (parent: 30) requested quit of fiber 34.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   34                      fiber.fiber - Received quit.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 34 terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 31 'tcp_connect' (parent: 30) terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 30 (parent: 29 'managed_client_conn') requested quit of fiber 32 'tcp_punch' (parent: 30).
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   32           anynet.punch_connector - Received quit.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 32 'tcp_punch' (parent: 30) terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 30 (parent: 29 'managed_client_conn') requested quit of fiber 33 'tcp_connect' (parent: 30).
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   33           anynet.punch_connector - [92.62.196.78:7070] Connection failed (result_quit).
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 33 'tcp_connect' (parent: 30) terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440                       fiber.scheduler - Fiber 30 (parent: 29 'managed_client_conn') terminated.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   29       anynet.managed_client_conn - Connection established.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440    7            anynet.connection_mgr - Managed client connection with 5b76eb7a655201a6a07e052b4f1cc1ce2b44b0b7 established.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   28                anynet.any_socket - Direct connection is available.
+   info 2025-04-09 13:01:43.065  local_svc   main   7440   7440   28                anynet.any_socket - Connection switch started.
+   info 2025-04-09 13:01:43.086  local_svc   main   7440   7440   28                anynet.any_socket - Connection switch completed.
+   info 2025-04-09 13:01:43.086  local_svc   main   7440   7440   28                anynet.any_socket - Sending 0 queued blobs.
+   info 2025-04-09 13:01:43.097  local_svc   main   7440   7440    9                  fiber.scheduler - Spawning root fiber 39.
+   info 2025-04-09 13:01:43.097  local_svc   main   7440   7440   39            anynet.connection_mgr - [172.17.60.15:64599] Incoming connection.
+   info 2025-04-09 13:01:43.098  local_svc   main   7440   7440   39                  fiber.scheduler - Spawning root fiber 40.
+   info 2025-04-09 13:01:43.111  local_svc   main   7440   7440   39            anynet.connection_mgr - [172.17.60.15:64599] TLS handshake error: result_closed.
+   info 2025-04-09 13:01:43.111  local_svc   main   7440   7440                       fiber.scheduler - Fiber 39 requested quit of fiber 40.
+   info 2025-04-09 13:01:43.111  local_svc   main   7440   7440   40                      fiber.fiber - Received quit.
+   info 2025-04-09 13:01:43.111  local_svc   main   7440   7440                       fiber.scheduler - Fiber 40 terminated.
+   info 2025-04-09 13:01:43.111  local_svc   main   7440   7440   27                      app.service - Using protocol version 4.
+   info 2025-04-09 13:01:43.115  local_svc   main   7440   7440   27                      app.session - Session features: deskrt, clipboard, chat, audio, input, tcp_tunnel.
+   info 2025-04-09 13:01:43.127  local_svc   main   7440   7440   27                      app.session - Connecting to current session 2586223978.
+   info 2025-04-09 13:01:43.133  local_svc   main   7440   7440   27                      app.session - Allowed interactive logon because there is a frontend.
+   info 2025-04-09 13:01:43.133  local_svc   main   7440   7440                       fiber.scheduler - Fiber 27 'anynet_connection' (parent: 1) requested quit of fiber 28 'any_socket_accept'.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440   28                anynet.any_socket - Connection switch acknowledged.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440   28                anynet.any_socket - Received quit.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440   28                anynet.any_socket - Accept fiber stopped.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440                       fiber.scheduler - Fiber 28 'any_socket_accept' terminated.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440                       fiber.scheduler - Fiber 39 terminated.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440    7            anynet.connection_mgr - Scheduling cleanup in 30 seconds.
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440   27                      app.service - Fiber exit (net).
+   info 2025-04-09 13:01:43.134  local_svc   main   7440   7440                       fiber.scheduler - Fiber 27 'anynet_connection' (parent: 1) terminated.
+  error 2025-04-09 13:01:43.134       tray   wrk0   7443   7470              base.prot.packet_factory - Invalid packet received (type=24, 0 bytes).
+  error 2025-04-09 13:01:43.134       tray   wrk0   7443   7470                        hub_ipc_socket - IPC packet deserialization failed.
+  error 2025-04-09 13:01:43.135  local_svc   main   7440   7440   29         base.prot.packet_factory - Invalid packet received (type=13, 3 bytes).
+  error 2025-04-09 13:01:43.135  local_svc   main   7440   7440   29       anynet.managed_client_conn - Unhandled message: packet_msg_t.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   11                anynet.any_socket - Accept request from 1449112680 (via relay).
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440    1                      app.service - New ANY connection.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440    1                  fiber.scheduler - Spawning child fiber 41 'anynet_connection' (parent: 1).
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   41                      app.service - Creating a ANY accept socket.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   41         anynet.client_packetizer - Adjusted send buffer: 8192
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   41                  fiber.scheduler - Spawning root fiber 42 'any_socket_accept'.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   42                anynet.any_socket - Accept fiber spawned.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   42            anynet.connection_mgr - Listening on port 7070 with IPv4
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   42            anynet.connection_mgr - Listening on port 7070 with IPv6
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   42                anynet.any_socket - Accepting from 1449112680.
+   info 2025-04-09 13:01:46.529  local_svc   main   7440   7440   42                anynet.any_socket - Retrieving client information.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Client-ID: 1449112680 (mbi_office02@ad) (FPR: 5b76eb7a6552).
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Logged in from 92.62.196.78:51399 on relay 4757ad50.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Re-using connection to client 5b76eb7a655201a6a07e052b4f1cc1ce2b44b0b7.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Accepting the connect request.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.relay_conn - Got local address (172.17.60.100:58392).
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Fetching local IPs
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Found 5 local IPs
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Found 7 direct connection candidates to provide to remote.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 1 [[fe80:0:0:0:e72b:92c7:7f80:15f4]:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 2 [172.18.0.1:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 3 [172.17.60.101:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 4 [172.17.60.100:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 5 [[fe80:0:0:0:a907:9a43:79f7:a5e3]:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 6 [92.62.196.78:7070].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42            anynet.connection_mgr - Candidate 7 [92.62.196.78:58392].
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Connect request accepted (direct).
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Connect request accepted, tunnel route created.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Local vport: 11, Remote vport: 11, SID: 1743554474640331
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Sending 0 queued blobs.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Initiating the managed connection.
+warning 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Unexpected: connect_msg_t.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Direct connection is available.
+   info 2025-04-09 13:01:46.580  local_svc   main   7440   7440   42                anynet.any_socket - Connection switch started.
+   info 2025-04-09 13:01:46.625  local_svc   main   7440   7440   42                anynet.any_socket - Connection switch completed.
+   info 2025-04-09 13:01:46.626  local_svc   main   7440   7440   42                anynet.any_socket - Sending 0 queued blobs.
+   info 2025-04-09 13:01:46.644  local_svc   main   7440   7440   42                anynet.any_socket - Connection switch acknowledged.
+   info 2025-04-09 13:01:46.646  local_svc   main   7440   7440   41                      app.service - Using protocol version 4.
+   info 2025-04-09 13:01:46.650  local_svc   main   7440   7440   41                      app.session - Session features: deskrt, clipboard, chat, audio, input, tcp_tunnel.
+   info 2025-04-09 13:01:46.661  local_svc   main   7440   7440   41                      app.session - Connecting to current session 2586223978.
+   info 2025-04-09 13:01:46.667  local_svc   main   7440   7440   41                      app.session - Allowed interactive logon because there is a frontend.
+   info 2025-04-09 13:01:46.667  local_svc   main   7440   7440                       fiber.scheduler - Fiber 41 'anynet_connection' (parent: 1) requested quit of fiber 42 'any_socket_accept'.
+   info 2025-04-09 13:01:46.667  local_svc   main   7440   7440   42                anynet.any_socket - Received quit.
+   info 2025-04-09 13:01:46.667  local_svc   main   7440   7440   42                anynet.any_socket - Accept fiber stopped.
+   info 2025-04-09 13:01:46.668  local_svc   main   7440   7440                       fiber.scheduler - Fiber 42 'any_socket_accept' terminated.
+   info 2025-04-09 13:01:46.668  local_svc   main   7440   7440    7            anynet.connection_mgr - Scheduling cleanup in 30 seconds.
+   info 2025-04-09 13:01:46.668  local_svc   main   7440   7440   41                      app.service - Fiber exit (net).
+   info 2025-04-09 13:01:46.668  local_svc   main   7440   7440                       fiber.scheduler - Fiber 41 'anynet_connection' (parent: 1) terminated.
+  error 2025-04-09 13:01:46.668       tray   wrk0   7443   7470              base.prot.packet_factory - Invalid packet received (type=24, 0 bytes).
+  error 2025-04-09 13:01:46.668       tray   wrk0   7443   7470                        hub_ipc_socket - IPC packet deserialization failed.
+  error 2025-04-09 13:01:46.669  local_svc   main   7440   7440   29         base.prot.packet_factory - Invalid packet received (type=13, 3 bytes).
+  error 2025-04-09 13:01:46.669  local_svc   main   7440   7440   29       anynet.managed_client_conn - Unhandled message: packet_msg_t.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 7 'connection_mgr' requested quit of fiber 29 'managed_client_conn'.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440   29       anynet.managed_client_conn - Managed client connection stopped.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440   29            anynet.connection_mgr - Forcing cleanup.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 29 'managed_client_conn' terminated.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 7 'connection_mgr' requested quit of fiber 37.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440   37                      fiber.fiber - Received quit.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 37 terminated.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 7 'connection_mgr' requested quit of fiber 36.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440   36                      fiber.fiber - Received quit.
+   info 2025-04-09 13:02:16.669  local_svc   main   7440   7440                       fiber.scheduler - Fiber 36 terminated.
+   info 2025-04-09 13:02:16.670  local_svc   main   7440   7440    7            anynet.connection_mgr - Cleaned up 1/1 managed client connections.
+   info 2025-04-09 13:03:40.577  local_svc   main   7440   7440                       fiber.scheduler - Quitting scheduler (1).
+   info 2025-04-09 13:03:40.577  local_svc   main   7440   7440                       fiber.scheduler - Quitting all fibers.
+   info 2025-04-09 13:03:40.577  local_svc   main   7440   7440                       fiber.scheduler - Fiber 1 requested quit of fiber 4 (parent: 1).
+   info 2025-04-09 13:03:40.578  local_svc   main   7440   7440                       fiber.scheduler - Fiber 4 (parent: 1) terminated.
+   info 2025-04-09 13:03:40.578  local_svc   main   7440   7440    8           anynet.main_relay_conn - Main relay connection closed.

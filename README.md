@@ -164,7 +164,7 @@ See [.github/copilot-instructions.md](.github/copilot-instructions.md) for AI ag
 
 ## License
 
-Proprietary - Conference Room Booking System
+ProprietaryConference Room Booking System
 
 ## Support
 

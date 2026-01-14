@@ -1,0 +1,54 @@
+Xsession: X session started for admin at 2026-01-14T19:26:38 CET
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+xrdb: Can't open display ''
+xhost:  unable to open display ""
+/usr/bin/unclutter: could not open display
+dbus-update-activation-environment: setting USER=admin
+dbus-update-activation-environment: setting LANGUAGE=en_DK
+dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=wayland
+dbus-update-activation-environment: setting HOME=/home/admin
+dbus-update-activation-environment: setting DESKTOP_SESSION=LXDE-pi-labwc
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=admin
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LANG=en_DK
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=LXDE-pi-labwc
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/admin
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-labwc
+dbus-update-activation-environment: setting NO_AT_BRIDGE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting LC_ALL=en_DK
+dbus-update-activation-environment: setting PWD=/home/admin
+00:00:00.164 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+00:00:00.164 [ERROR] [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+applying profile '<anonymous at line 1, col 9>'
+applying profile output 'HDMI-A-1' on connected head 'HDMI-A-1'
+Failure: No such entity
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+configuration for profile '<anonymous at line 1, col 9>' applied
+
+(polkit-mate-authentication-agent-1:1296): GLib-CRITICAL **: 19:26:42.158: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-mate-authentication-agent-1:1296): polkit-mate-1-WARNING **: 19:26:42.159: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+** Message: 19:26:43.280: batt: battery 0 not found
+** Message: 19:26:43.628: up: Checking for updates
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+xsettingsd: Loaded 19 settings from /home/admin/.config/xsettingsd/xsettingsd.conf
+xsettingsd: Created window 0x400001 on screen 0 with timestamp 13508
+xsettingsd: Selection _XSETTINGS_S0 is owned by 0x0
+xsettingsd: Took ownership of selection _XSETTINGS_S0
+xsettingsd: Ignoring event of type 33
+** Message: 19:26:47.486: up: Cache updated - comparing versions
+** Message: 19:26:52.222: up: Check complete - no updates available

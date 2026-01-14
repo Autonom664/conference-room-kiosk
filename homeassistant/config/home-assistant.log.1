@@ -1,0 +1,280 @@
+2026-01-14 18:16:06.448 WARNING (SyncWorker_0) [annotatedyaml.constructors] YAML file /config/configuration.yaml contains duplicate key "sensor". Check lines 46 and 73
+2026-01-14 18:16:06.505 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration browser_mod which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-01-14 18:16:06.506 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ytube_music_player which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-01-14 18:16:06.507 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-01-14 18:16:06.508 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration config_editor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-01-14 18:16:06.508 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration ms365_calendar which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-01-14 18:16:15.567 ERROR (ImportExecutor_0) [homeassistant.loader] Unexpected exception importing component homeassistant.components.reolink
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 10, in <module>
+    from reolink_aio.api import RETRY_ATTEMPTS
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 30, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/__init__.py", line 3, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/baichuan.py", line 12, in <module>
+    from Cryptodome.Cipher import AES
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/__init__.py", line 27, in <module>
+    from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/_mode_ecb.py", line 29, in <module>
+    from Cryptodome.Util._raw_api import (load_pycryptodome_raw_lib,
+    ...<3 lines>...
+                                      is_writeable_buffer)
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Util/_raw_api.py", line 87, in <module>
+    ffi = FFI()
+  File "/usr/local/lib/python3.13/site-packages/cffi/api.py", line 54, in __init__
+    raise Exception("Version mismatch: this is the 'cffi' package version %s, located in %r.  When we import the top-level '_cffi_backend' extension module, we get version %s, located in %r.  The two versions should be equal; check your installation." % (
+        __version__, __file__,
+        backend.__version__, backend.__file__))
+Exception: Version mismatch: this is the 'cffi' package version 2.0.0, located in '/usr/local/lib/python3.13/site-packages/cffi/api.py'.  When we import the top-level '_cffi_backend' extension module, we get version 1.17.1, located in '/usr/local/lib/python3.13/site-packages/_cffi_backend.cpython-313-aarch64-linux-musl.so'.  The two versions should be equal; check your installation.
+2026-01-14 18:16:15.590 WARNING (MainThread) [homeassistant.util.loop] Detected blocking call to import_module with args ('homeassistant.components.reolink',) in /usr/src/homeassistant/homeassistant/loader.py, line 1052: ComponentProtocol, importlib.import_module(self.pkg_path) inside the event loop; This is causing stability issues. Please create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue
+For developers, please see https://developers.home-assistant.io/docs/asyncio_blocking_operations/#import_module
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/src/homeassistant/homeassistant/__main__.py", line 227, in <module>
+    sys.exit(main())
+  File "/usr/src/homeassistant/homeassistant/__main__.py", line 213, in main
+    exit_code = runner.run(runtime_conf)
+  File "/usr/src/homeassistant/homeassistant/runner.py", line 154, in run
+    return loop.run_until_complete(setup_and_run_hass(runtime_config))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 2040, in _run_once
+    handle._run()
+  File "/usr/local/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 171, in async_setup_component
+    result = await _async_setup_component(hass, domain, config)
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 340, in _async_setup_component
+    component = await integration.async_get_component()
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1004, in async_get_component
+    comp = self._get_component()
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+
+2026-01-14 18:16:15.595 ERROR (MainThread) [homeassistant.loader] Unexpected exception importing component homeassistant.components.reolink
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 10, in <module>
+    from reolink_aio.api import RETRY_ATTEMPTS
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 30, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/__init__.py", line 3, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/baichuan.py", line 12, in <module>
+    from Cryptodome.Cipher import AES
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/__init__.py", line 27, in <module>
+    from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/_mode_ecb.py", line 29, in <module>
+    from Cryptodome.Util._raw_api import (load_pycryptodome_raw_lib,
+    ...<3 lines>...
+                                      is_writeable_buffer)
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Util/_raw_api.py", line 87, in <module>
+    ffi = FFI()
+  File "/usr/local/lib/python3.13/site-packages/cffi/api.py", line 54, in __init__
+    raise Exception("Version mismatch: this is the 'cffi' package version %s, located in %r.  When we import the top-level '_cffi_backend' extension module, we get version %s, located in %r.  The two versions should be equal; check your installation." % (
+        __version__, __file__,
+        backend.__version__, backend.__file__))
+Exception: Version mismatch: this is the 'cffi' package version 2.0.0, located in '/usr/local/lib/python3.13/site-packages/cffi/api.py'.  When we import the top-level '_cffi_backend' extension module, we get version 1.17.1, located in '/usr/local/lib/python3.13/site-packages/_cffi_backend.cpython-313-aarch64-linux-musl.so'.  The two versions should be equal; check your installation.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 992, in async_get_component
+    comp = await self.hass.async_add_import_executor_job(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._get_component, True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1063, in _get_component
+    raise ImportError(f"Exception importing {self.pkg_path}") from err
+ImportError: Exception importing homeassistant.components.reolink
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 10, in <module>
+    from reolink_aio.api import RETRY_ATTEMPTS
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 30, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/__init__.py", line 3, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/baichuan.py", line 12, in <module>
+    from Cryptodome.Cipher import AES
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/__init__.py", line 27, in <module>
+    from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/_mode_ecb.py", line 29, in <module>
+    from Cryptodome.Util._raw_api import (load_pycryptodome_raw_lib,
+    ...<3 lines>...
+                                      is_writeable_buffer)
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Util/_raw_api.py", line 87, in <module>
+    ffi = FFI()
+  File "/usr/local/lib/python3.13/site-packages/cffi/api.py", line 54, in __init__
+    raise Exception("Version mismatch: this is the 'cffi' package version %s, located in %r.  When we import the top-level '_cffi_backend' extension module, we get version %s, located in %r.  The two versions should be equal; check your installation." % (
+        __version__, __file__,
+        backend.__version__, backend.__file__))
+Exception: Version mismatch: this is the 'cffi' package version 2.0.0, located in '/usr/local/lib/python3.13/site-packages/cffi/api.py'.  When we import the top-level '_cffi_backend' extension module, we get version 1.17.1, located in '/usr/local/lib/python3.13/site-packages/_cffi_backend.cpython-313-aarch64-linux-musl.so'.  The two versions should be equal; check your installation.
+2026-01-14 18:16:15.599 ERROR (MainThread) [homeassistant.setup] Setup failed for 'reolink': Unable to import component: Exception importing homeassistant.components.reolink
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 10, in <module>
+    from reolink_aio.api import RETRY_ATTEMPTS
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 30, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/__init__.py", line 3, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/baichuan.py", line 12, in <module>
+    from Cryptodome.Cipher import AES
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/__init__.py", line 27, in <module>
+    from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/_mode_ecb.py", line 29, in <module>
+    from Cryptodome.Util._raw_api import (load_pycryptodome_raw_lib,
+    ...<3 lines>...
+                                      is_writeable_buffer)
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Util/_raw_api.py", line 87, in <module>
+    ffi = FFI()
+  File "/usr/local/lib/python3.13/site-packages/cffi/api.py", line 54, in __init__
+    raise Exception("Version mismatch: this is the 'cffi' package version %s, located in %r.  When we import the top-level '_cffi_backend' extension module, we get version %s, located in %r.  The two versions should be equal; check your installation." % (
+        __version__, __file__,
+        backend.__version__, backend.__file__))
+Exception: Version mismatch: this is the 'cffi' package version 2.0.0, located in '/usr/local/lib/python3.13/site-packages/cffi/api.py'.  When we import the top-level '_cffi_backend' extension module, we get version 1.17.1, located in '/usr/local/lib/python3.13/site-packages/_cffi_backend.cpython-313-aarch64-linux-musl.so'.  The two versions should be equal; check your installation.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 992, in async_get_component
+    comp = await self.hass.async_add_import_executor_job(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._get_component, True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1063, in _get_component
+    raise ImportError(f"Exception importing {self.pkg_path}") from err
+ImportError: Exception importing homeassistant.components.reolink
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1052, in _get_component
+    ComponentProtocol, importlib.import_module(self.pkg_path)
+                       ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/util/loop.py", line 201, in protected_loop_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/usr/src/homeassistant/homeassistant/components/reolink/__init__.py", line 10, in <module>
+    from reolink_aio.api import RETRY_ATTEMPTS
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/api.py", line 30, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/__init__.py", line 3, in <module>
+    from .baichuan import Baichuan, PortType, DEFAULT_BC_PORT
+  File "/usr/local/lib/python3.13/site-packages/reolink_aio/baichuan/baichuan.py", line 12, in <module>
+    from Cryptodome.Cipher import AES
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/__init__.py", line 27, in <module>
+    from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Cipher/_mode_ecb.py", line 29, in <module>
+    from Cryptodome.Util._raw_api import (load_pycryptodome_raw_lib,
+    ...<3 lines>...
+                                      is_writeable_buffer)
+  File "/usr/local/lib/python3.13/site-packages/Cryptodome/Util/_raw_api.py", line 87, in <module>
+    ffi = FFI()
+  File "/usr/local/lib/python3.13/site-packages/cffi/api.py", line 54, in __init__
+    raise Exception("Version mismatch: this is the 'cffi' package version %s, located in %r.  When we import the top-level '_cffi_backend' extension module, we get version %s, located in %r.  The two versions should be equal; check your installation." % (
+        __version__, __file__,
+        backend.__version__, backend.__file__))
+Exception: Version mismatch: this is the 'cffi' package version 2.0.0, located in '/usr/local/lib/python3.13/site-packages/cffi/api.py'.  When we import the top-level '_cffi_backend' extension module, we get version 1.17.1, located in '/usr/local/lib/python3.13/site-packages/_cffi_backend.cpython-313-aarch64-linux-musl.so'.  The two versions should be equal; check your installation.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/setup.py", line 340, in _async_setup_component
+    component = await integration.async_get_component()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1012, in async_get_component
+    self._component_future.result()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1004, in async_get_component
+    comp = self._get_component()
+  File "/usr/src/homeassistant/homeassistant/loader.py", line 1063, in _get_component
+    raise ImportError(f"Exception importing {self.pkg_path}") from err
+ImportError: Exception importing homeassistant.components.reolink
+2026-01-14 18:16:18.988 WARNING (MainThread) [homeassistant.components.sensor] Entity sensor.dst001_shelly_pro_3em_hourly_energy (<class 'homeassistant.components.utility_meter.sensor.UtilityMeterSensor'>) is using state class 'total_increasing' which is impossible considering device class ('power') it is using; expected None or one of 'measurement'; Please update your configuration if your entity is manually configured, otherwise create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22integration%3A+utility_meter%22
+2026-01-14 18:16:28.473 ERROR (SyncWorker_4) [homeassistant] Error doing job: Task exception was never retrieved (None)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/sonos/favorites.py", line 75, in async_process_event
+    if not (match := re.search(r"FV:2,(\d+)", container_ids)):
+                     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/re/__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
