@@ -57,23 +57,13 @@ docker-compose down     # Stop
 - Formats output: "In Xm", "In Xh Ym", or "Available"
 - Updates automatically and used by kiosk UI for booking countdown
 
-### Booking Scripts
-Three duration options for conference room booking ([scripts.yaml](homeassistant/config/scripts.yaml)):
+### Custom Components
+- **HACS** (Home Assistant Community Store): Installed via [install_hacs.sh](homeassistant/install_hacs.sh)
+- **browser_mod**: Browser control and services
+- **ms365_calendar**: Microsoft 365 calendar integration
+- **ytube_music_player**: YouTube Music integration
 
-1. `script.book_conference_room_15_min` - Books room for 15 minutes
-2. `script.book_conference_room_30_min` - Books room for 30 minutes
-3. `script.book_conference_room_60_min` - Books room for 60 minutes
-
-All scripts include:
-- Error handling: Calendar event creation with automatic error notification
-- Confirmation: Sends `notify.notify` service with "✓ Room Booked" message and availability time
-- Idempotent: Multiple taps don't double-book (10-second booking availability delay)
-
-**Booking Cancellation Script: `script.cancel_last_booking`**
-- Finds most recent "Booked from touch panel" event in calendar
-- Deletes the event if found
-- Sends confirmation notification "✓ Booking Cancelled"
-- Useful for accidental bookings or changed plans
+All custom components in [homeassistant/config/custom_components/](homeassistant/config/custom_components/)
 
 ### Booking Scripts
 Three duration options for conference room booking ([scripts.yaml](homeassistant/config/scripts.yaml)):
@@ -199,4 +189,3 @@ The kiosk displays a **single-column fullscreen dashboard** optimized for 9" tou
 - Verify `start-kiosk.sh` is executable: `chmod +x start-kiosk.sh`
 - Check Chromium is installed: `which chromium-browser`
 - Verify DISPLAY variable: `echo $DISPLAY` (should be `:0` for X11)
-

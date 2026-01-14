@@ -1,0 +1,14 @@
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: homeassistant/home-assistant:stable
+    volumes:
+      - ./config:/config
+      - /var/run/dbus:/var/run/dbus:ro  # Mount the D-Bus socket
+    restart: unless-stopped
+    network_mode: host
+    devices:
+      - /dev/ttyACM0  # Adjust this if your Bluetooth device is different
+      - /dev/rfcomm0   # Adjust this if your Bluetooth device is different
+    privileged: true
