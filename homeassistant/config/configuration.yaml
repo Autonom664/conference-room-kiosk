@@ -71,7 +71,37 @@ sensor:
             {% else %}
               No calendar data available.
             {% endif %}
-sensor:
+
+      room_available_at:
+        friendly_name: "Room Available At"
+        value_template: >
+          {% set data = state_attr('calendar.conferenceroom_calendar', 'data') %}
+          {% if data %}
+            {% set now_ts = now().timestamp() %}
+            {% set upcoming = data
+              | selectattr('start', 'defined')
+              | selectattr('start', 'ne', None)
+              | map(attribute='start')
+              | map('as_timestamp')
+              | select('gt', now_ts)
+              | list | sort %}
+            {% if upcoming | length > 0 %}
+              {% set next_available = upcoming[0] %}
+              {% set time_until = (next_available - now_ts) | int %}
+              {% if time_until < 60 %}
+                In {{ time_until }}s
+              {% elif time_until < 3600 %}
+                In {{ (time_until / 60) | int }}m
+              {% else %}
+                In {{ (time_until / 3600) | int }}h {{ ((time_until % 3600) / 60) | int }}m
+              {% endif %}
+            {% else %}
+              Available
+            {% endif %}
+          {% else %}
+            Available
+          {% endif %}
+
   - platform: time_date
     display_options:
       - 'time'
