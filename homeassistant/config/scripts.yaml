@@ -1,11 +1,82 @@
+book_conference_room_15_min:
+  alias: Book Conference Room for 15 Minutes
+  sequence:
+  - condition: state
+    entity_id: binary_sensor.conference_room_booking_available
+    state: "on"
+  - action: calendar.create_event
+    data:
+      entity_id: calendar.conferenceroom_calendar
+      summary: Booked from touch panel
+      description: Auto-booked for 15 minutes
+      start_date_time: '{{ now().isoformat() }}'
+      end_date_time: '{{ (now() + timedelta(minutes=15)).isoformat() }}'
+  - service: notify.notify
+    data:
+      title: "✓ Room Booked"
+      message: "Conference room booked until {{ (now() + timedelta(minutes=15)).strftime('%I:%M %p') }}"
+  - delay:
+      seconds: 10
+  mode: single
+
 book_conference_room_30_min:
   alias: Book Conference Room for 30 Minutes
   sequence:
-  - data:
+  - condition: state
+    entity_id: binary_sensor.conference_room_booking_available
+    state: "on"
+  - action: calendar.create_event
+    data:
       entity_id: calendar.conferenceroom_calendar
       summary: Booked from touch panel
       description: Auto-booked for 30 minutes
       start_date_time: '{{ now().isoformat() }}'
       end_date_time: '{{ (now() + timedelta(minutes=30)).isoformat() }}'
-    action: calendar.create_event
+  - service: notify.notify
+    data:
+      title: "✓ Room Booked"
+      message: "Conference room booked until {{ (now() + timedelta(minutes=30)).strftime('%I:%M %p') }}"
+  - delay:
+      seconds: 10
+  mode: single
+
+book_conference_room_60_min:
+  alias: Book Conference Room for 60 Minutes
+  sequence:
+  - condition: state
+    entity_id: binary_sensor.conference_room_booking_available
+    state: "on"
+  - action: calendar.create_event
+    data:
+      entity_id: calendar.conferenceroom_calendar
+      summary: Booked from touch panel
+      description: Auto-booked for 60 minutes
+      start_date_time: '{{ now().isoformat() }}'
+      end_date_time: '{{ (now() + timedelta(minutes=60)).isoformat() }}'
+  - service: notify.notify
+    data:
+      title: "✓ Room Booked"
+      message: "Conference room booked until {{ (now() + timedelta(minutes=60)).strftime('%I:%M %p') }}"
+  - delay:
+      seconds: 10
+  mode: single
+
+cancel_last_booking:
+  alias: Cancel Last Conference Room Booking
+  sequence:
+  - variables:
+      calendar_data: "{{ state_attr('calendar.conferenceroom_calendar', 'data') | list }}"
+      booked_events: "{{ calendar_data | selectattr('summary', 'eq', 'Booked from touch panel') | list }}"
+  - condition: template
+    value_template: "{{ booked_events | length > 0 }}"
+  - service: calendar.delete_event
+    data:
+      entity_id: calendar.conferenceroom_calendar
+      event_id: "{{ (booked_events | last)['uid'] }}"
+  - service: notify.notify
+    data:
+      title: "✓ Booking Cancelled"
+      message: "Most recent booking has been removed"
+  mode: single
+
   mode: single
